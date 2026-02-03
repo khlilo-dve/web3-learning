@@ -1,0 +1,21 @@
+# --- 系统垃圾文件 ---
+.DS_Store
+Thumbs.db
+
+# --- Python 编译缓存 ---
+__pycache__/
+*.pyc
+
+# --- 虚拟环境 (体积很大，不上传) ---
+venv/
+.venv/
+env/
+
+# --- 敏感信息 (绝对不能上传！！！) ---
+.env
+.env.local
+private_keys.txt
+
+# --- IDE 配置 ---
+.vscode/
+.idea/
